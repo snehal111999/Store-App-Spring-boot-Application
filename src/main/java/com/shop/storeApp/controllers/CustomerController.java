@@ -2,7 +2,6 @@ package com.shop.storeApp.controllers;
 import java.util.List;
 import com.shop.storeApp.DTO.CustomerDTO;
 import com.shop.storeApp.services.CustomerService;
-//import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -61,5 +60,6 @@ public class CustomerController {
         String message = "patched sucessfully";
         return new ResponseEntity<>(message , HttpStatus.OK);
     }
+
 
 }

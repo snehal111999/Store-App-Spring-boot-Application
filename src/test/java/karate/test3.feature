@@ -13,5 +13,3 @@ Feature:sample karate test script
     """
     When method put
     Then status 201
-
-

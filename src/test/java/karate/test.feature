@@ -54,6 +54,3 @@ Background:
         "customerId": '#number'
     }
     """
-
-
-

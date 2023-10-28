@@ -2,9 +2,6 @@ package com.shop.storeApp.entity;
 
 import javax.persistence.*;
 
-import java.util.ArrayList;
-import java.util.List;
-
 @Entity
 @Table
 public class Customers {

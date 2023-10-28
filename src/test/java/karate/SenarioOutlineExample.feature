@@ -20,4 +20,3 @@ Feature: trying Scenario Outline
      # |url| path |
      # |http://localhost:9090|/customers|
      # |http://localhost:9090|/customers|
-

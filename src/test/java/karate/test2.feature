@@ -30,8 +30,3 @@ Feature:sample karate test script for post
        |customerId|customerName|phoneNum|location|
        |8         |arshad      |1234567 |anantapur|
        |9         |ashwini     |238794  |sangli|
-
-
-
-
-

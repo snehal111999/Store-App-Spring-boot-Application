@@ -1,7 +1,6 @@
 package com.shop.storeApp.DTO;
 
 public class ProductDto {
-
     private Integer productId;
 
     private String productName;

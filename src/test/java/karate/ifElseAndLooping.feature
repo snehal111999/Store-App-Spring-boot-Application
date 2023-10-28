@@ -10,5 +10,3 @@ Feature:sample karate test script
     * def phoneNums = []
     And eval for(var i=0; i< response.length; i++) if(response[i].customerName.includes("arshad")) locations.push(response[i].location); else phoneNums.push(response[i].phoneNum);
     And if (locations.length == 0) karate.log(phoneNums); else karate.log(locations);
-
-

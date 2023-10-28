@@ -31,6 +31,4 @@ public class ProductController {
     public ResponseEntity<ProductDto> findProductById (@PathVariable Integer productId) {
         return ResponseEntity.ok(this.productService.getProductById(productId));
     }
-
-
 }

@@ -9,4 +9,3 @@ Feature:sample karate test script
     #calling test.feature file in test4.feature file
     And def allData = call read ('classpath: karate/test2.feature')
     Then print allData
-

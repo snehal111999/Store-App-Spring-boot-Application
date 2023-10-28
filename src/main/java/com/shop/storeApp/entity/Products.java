@@ -1,7 +1,6 @@
 package com.shop.storeApp.entity;
 
 import javax.persistence.*;
-
 @Entity
 public class Products {
     @Id
